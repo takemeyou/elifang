@@ -6,8 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elifang" />
+        <module name="elifang-manager-dao" />
+        <module name="elifang-manager-interface" />
+        <module name="elifang-manager-pojo" />
+        <module name="elifang-manager-service" />
+        <module name="elifang-manager-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="elifang-manager-web" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
