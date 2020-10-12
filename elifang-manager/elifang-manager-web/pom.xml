@@ -10,6 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>elifang-manager-web</artifactId>
+    <groupId>com.pxxy.elifang</groupId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
@@ -26,8 +28,8 @@
             <scope>test</scope>
         </dependency>
             <dependency>
-                <groupId>cn.e3mall</groupId>
-                <artifactId>e3-manager-service</artifactId>
+                <artifactId>elifang-manager-service</artifactId>
+                <groupId>com.pxxy.elifang</groupId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <!-- JSP相关 -->
