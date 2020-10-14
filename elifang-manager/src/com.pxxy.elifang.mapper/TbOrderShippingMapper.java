@@ -1,9 +1,10 @@
-package mapper;
+package com.pxxy.elifang.mapper;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 import com.pxxy.elifang.pojo.TbOrderShipping;
 import com.pxxy.elifang.pojo.TbOrderShippingQuery;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbOrderShippingMapper {
     long countByExample(TbOrderShippingQuery example);

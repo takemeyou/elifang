@@ -14,7 +14,8 @@
   <!-- 加载spring容器 -->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring/applicationContext-*.xml</param-value>
+    <!--特别注意，这里是classpath*,后面没有加*的会报错：java.io.FileNotFoundException: class path resource [classpath:spring/applicationContext-*.xml] cannot be ope;第二个错误：Could not resolve bean definition resource pattern [classpath:spring/applicationContext-*.xml]-->
+    <param-value>classpath*:spring/applicationContext-*.xml</param-value>
   </context-param>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -42,7 +43,8 @@
     <!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring/Springmvc.xml</param-value>
+      <!--特别注意，这里是classpath*,后面没有加*的会报错：java.io.FileNotFoundException: class path resource [spring/applicationContext-mvc.xml] cannot be ope-->
+      <param-value>classpath*:spring/applicationContext-mvc.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>

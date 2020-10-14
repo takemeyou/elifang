@@ -1,9 +1,10 @@
-package mapper;
+package com.pxxy.elifang.mapper;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 import com.pxxy.elifang.pojo.TbContent;
 import com.pxxy.elifang.pojo.TbContentQuery;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbContentMapper {
     long countByExample(TbContentQuery example);

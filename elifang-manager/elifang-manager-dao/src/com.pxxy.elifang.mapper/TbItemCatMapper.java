@@ -1,4 +1,4 @@
-package mapper;
+package com.pxxy.elifang.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;

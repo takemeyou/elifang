@@ -1,9 +1,10 @@
-package mapper;
+package com.pxxy.elifang.mapper;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 import com.pxxy.elifang.pojo.TbItemParamItem;
 import com.pxxy.elifang.pojo.TbItemParamItemQuery;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbItemParamItemMapper {
     long countByExample(TbItemParamItemQuery example);
