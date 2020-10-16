@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext Dao" removed="false">
+          <file>file://$MODULE_DIR$/../elifang-manager/elifang-manager-web/resources/spring/applicationContext-dao.xml</file>
+          <file>file://$MODULE_DIR$/../elifang-manager/elifang-manager-web/resources/spring/applicationContext-service.xml</file>
+          <file>file://$MODULE_DIR$/../elifang-manager/elifang-manager-web/resources/spring/applicationContext-trans.xml</file>
+          <file>file://$MODULE_DIR$/../elifang-manager/elifang-manager-web/resources/spring/Springmvc.xml</file>
+          <file>file://$MODULE_DIR$/../elifang-manager/elifang-manager-web/resources/spring/applicationContext-mvc.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>

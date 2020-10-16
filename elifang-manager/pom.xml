@@ -16,7 +16,6 @@
             <module>elifang-manager-dao</module>
             <module>elifang-manager-interface</module>
             <module>elifang-manager-service</module>
-            <module>elifang-manager-web</module>
         </modules>
 
         <dependencies>

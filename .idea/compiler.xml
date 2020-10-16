@@ -15,7 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="elifang-manager-web" target="1.7" />
+      <module name="elifang-manager-web (1)" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
