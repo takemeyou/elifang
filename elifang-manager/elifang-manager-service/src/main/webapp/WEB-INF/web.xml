@@ -16,7 +16,7 @@
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <!--特别注意，这里是classpath*,后面没有加*的会报错：java.io.FileNotFoundException: class path resource [classpath:spring/applicationContext-*.xml] cannot be ope;第二个错误：Could not resolve bean definition resource pattern [classpath:spring/applicationContext-*.xml]-->
-    <param-value>classpath*:spring/applicationContext-trans.xml</param-value>
+    <param-value>classpath*:spring/applicationContext-*.xml</param-value>
   </context-param>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
