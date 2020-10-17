@@ -1,4 +1,4 @@
-package cn.elifang.controller;
+package com.pxxy.elifang.controller;
 
 import com.pxxy.elifang.pojo.TbItem;
 import com.pxxy.elifang.service.ItemService;
