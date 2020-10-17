@@ -37,6 +37,11 @@
             <groupId>com.pxxy.elifang</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>-->
+        <dependency>
+            <artifactId>elifang-manager-service</artifactId>
+            <groupId>com.pxxy.elifang</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--spring-->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -83,15 +88,14 @@
             </dependency>
     </dependencies>
 
-   <!-- <build>
+ <build>
         <finalName>elifang-manager-web</finalName>
-        <pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.1.0</version>
                 </plugin>
-                &lt;!&ndash; see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging &ndash;&gt;
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.0.2</version>
@@ -118,5 +122,5 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-    </build>-->
+    </build>
 </project>
