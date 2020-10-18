@@ -16,7 +16,11 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
 <!--将这一行放在最后一行，Controller就有bean了，也就是controller类被管理了-->
     <context:component-scan base-package="com.pxxy.elifang.controller" />
+<!-- 如果这里没有扫描service层，那么Controller中的service的自动注入就没有bean，报红-->
+    <context:component-scan base-package="com.pxxy.elifang.service"/>
+
 
 </beans>

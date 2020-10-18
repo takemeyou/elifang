@@ -14,8 +14,6 @@ public class ItemController{
     @Autowired
     private ItemService itemService;
 
-
-
     @RequestMapping("/item/{itemId}")
     @ResponseBody
     public TbItem getItemById(@PathVariable Long itemId){
