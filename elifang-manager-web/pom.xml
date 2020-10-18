@@ -20,11 +20,11 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>
+        <dependency>
             <artifactId>elifang-manager-service</artifactId>
             <groupId>com.pxxy.elifang</groupId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
